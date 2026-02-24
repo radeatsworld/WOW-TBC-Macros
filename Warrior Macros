@@ -1,0 +1,171 @@
+-- BERSERKER RAGE
+#showtooltip Berserker Rage
+/startattack
+/cast [stance:1] Berserker Stance
+/cast [stance:2] Berserker Stance
+/cast [stance:3] Berserker Rage
+
+
+-- CHARGE
+#showtooltip Charge
+/cast [stance:3] Battle Stance
+/cast [stance:2] Battle Stance
+/cast [stance:1] Charge
+
+
+-- DISARM
+#showtooltip Disarm
+/startattack 
+/cast [stance:1] Defensive Stance
+/cast [stance:3] Defensive Stance
+/cast [stance:2] Disarm
+
+
+-- EXECUTE
+#showtooltip Execute
+/startattack
+/cast [stance:2] Battle Stance
+/cast [stance:1] Execute
+/cast [stance:3] Execute
+
+
+-- HAMSTRING
+#showtooltip Hamstring
+/startattack
+/cast [stance:3] Battle Stance
+/cast [stance:1] Hamstring
+/cast [stance:2] Hamstring
+
+
+-- INTERCEPT
+#showtooltip Intercept
+/startattack
+/cast [stance:1] Berserker Stance
+/cast [stance:2] Berserker Stance
+/cast [stance:3] Intercept
+
+
+-- MOCKING BLOW
+#showtooltip Mocking Blow
+/startattack
+/cast [stance:2] Battle Stance
+/cast [stance:3] Battle Stance
+/cast [stance:1] Mocking Blow
+
+
+-- OVERPOWER
+#showtooltip Overpower
+/startattack
+/cast [stance:2] Battle Stance
+/cast [stance:3] Battle Stance
+/cast [stance:1] Overpower
+
+
+-- PUMMEL
+#showtooltip Pummel
+/startattack
+/cast [stance:1] Berserker Stance
+/cast [stance:2] Berserker Stance
+/cast [stance:3] Pummel
+
+
+-- RECKLESSNESS
+#showtooltip Recklessness
+/startattack
+/cast [stance:1] Berserker Stance
+/cast [stance:2] Berserker Stance
+/cast [stance:3] Recklessness
+
+
+-- REND
+#showtooltip Rend
+/startattack
+/cast [stance:3] Battle Stance
+/cast [stance:1] Rend
+/cast [stance:2] Rend
+
+
+-- RETALIATION
+#showtooltip Retaliation
+/startattack
+/cast [stance:2] Battle Stance
+/cast [stance:3] Battle Stance
+/cast [stance:1] Retaliation
+
+
+-- REVENGE
+#showtooltip Revenge
+/startattack
+/cast [stance:1] Defensive Stance
+/cast [stance:3] Defensive Stance
+/cast [stance:2] Revenge
+
+
+-- SHIELD BASH
+#showtooltip Shield Bash
+/startattack
+/cast [stance:3] Defensive Stance
+/cast [stance:1] Shield Bash
+/cast [stance:2] Shield Bash
+
+
+-- SHIELD BLOCK
+#showtooltip Shield Block
+/startattack
+/cast [stance:1] Defensive Stance
+/cast [stance:3] Defensive Stance
+/cast [stance:2] Shield Block
+
+
+-- SHIELD WALL
+#showtooltip Shield Wall
+/startattack 
+/cast [stance:1] Defensive Stance
+/cast [stance:3] Defensive Stance
+/cast [stance:2] Shield Wall
+
+
+-- SHOOT
+/startattack
+/cast [worn:thrown] Throw; [worn:bow] Shoot; [worn:gun] Shoot; [worn:crossbow] Shoot
+
+
+-- SWEEPING STRIKES
+#showtooltip Sweeping Strikes
+/startattack
+/cast [stance:2] Battle Stance
+/cast [stance:1] Sweeping Strikes
+/cast [stance:3] Sweeping Strikes
+
+
+-- TAUNT
+#showtooltip Taunt
+/startattack
+/cast [stance:1] Defensive Stance
+/cast [stance:3] Defensive Stance
+/cast [stance:2] Taunt
+
+
+-- THUNDER CLAP
+#showtooltip Thunder Clap
+/startattack
+/cast [stance:3] Battle Stance
+/cast [stance:1] Thunder Clap
+/cast [stance:2] Thunder Clap
+
+
+-- WEAPON SWAP
+/eq [noworn:shield] Communal Shield
+/equipslot [noworn:shield] 16 Communal Guardian
+/eq [noworn:two-hand] Communal Warmaul
+
+
+-- WHIRLSWIND
+#showtooltip Whirlwind
+/startattack
+/cast [stance:1] Berserker Stance
+/cast [stance:2] Berserker Stance
+/cast [stance:3] Whirlwind
+
+
+-- 
