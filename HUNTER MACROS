@@ -1,0 +1,8 @@
+-- HUNTER INTRO ATTACK
+#showtooltip
+/petattack
+/cast Charge
+/cast Growl
+/cast !Auto Shot
+/cast Hunter's Mark
+/cast Concussive Shot
