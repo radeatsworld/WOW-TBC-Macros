@@ -1,0 +1,51 @@
+-- BUFFS REQUEST
+/s May I have some Buffs please?
+
+
+-- CLICK YES ON POP-UP
+/click StaticPopup1Button1
+
+
+-- EQUIP WEAPONS ** CHANGE NAMES FOR MAINHAND (16) AND OFFHAND (17)
+/equipslot 16 Communal Guardian
+/equipslot 17 Communal Shield
+
+
+-- INVITE TARGET TO PARTY
+/invite
+
+
+-- RELOAD UI
+/reload
+
+
+-- ROLL
+/roll
+
+
+-- SWAP WEAPONS ** CHANGE WEAPON NAMES (1ST- MAINHAND, 2ND- OFFHAND, 3RD- TWOHANDER)
+/equipslot [noworn:shield] 16 Communal Guardian
+/eq [noworn:shield] Communal Shield
+/eq [noworn:two-hand] Communal Warmaul
+
+
+-- TOGGLE MACRO MENU
+/macro
+
+
+-- TOGGLE CLICK-TO-MOVE
+/run local k,v = "autointeract" v = C_CVar.GetCVar(k) C_CVar.SetCVar(k, 1 - v) print("Auto Interact " .. (v == "1" and "Disabled" or "Enabled"))
+/script SetCVar("nameplateShowFriends", 0)
+/script SetCVar("nameplateShowEnemies", 1)
+
+
+-- TOGGLE SHOW LUA ERRORS
+/run local t = t or 1; if t==1 then console scriptErrors 1; t=2; else console scriptErrors 0; t=1; end
+
+
+-- TOGGLE UI PROFILES
+/run local a,b=3,4 EditModeManagerFrame:SelectLayout(C_EditMode.GetLayouts().activeLayout==a and b or a)
+
+
+-- VENDOR SNIPER **REPLACE "ITEM NAME" WITH THE ITEM YOU WANT
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l and l:find("Pattern: Runecloth Bag") then BuyMerchantItem(i, 1) end end CloseMerchant()
