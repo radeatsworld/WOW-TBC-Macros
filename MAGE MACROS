@@ -1,0 +1,10 @@
+-- WATER ELEMENTAL ATTACK
+#showtooltip Summon Water Elemental
+/cast Summon Water Elemental
+/petattack
+
+
+-- MAGE PET FREEZE
+#showtooltip Freeze
+/petattack
+/cast [@target] Freeze
