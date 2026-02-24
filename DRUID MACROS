@@ -1,0 +1,62 @@
+-- FORMS
+  [form:0] = HUMAN FORM
+  [form:1] = BEAR FORM
+  [form:2] = AQUATIC FORM
+  [form:3] = CAT FORM 
+  [form:4] = TRAVEL FORM
+  [form:5] = BOOMKIN FORM
+
+-- BASHES
+#showtooltip
+/cast [form:0] Cat Form(Shapeshift); [form:1] Bash; [form:2] Cat Form(Shapeshift); [form:3] Pounce; [form:4] Cat Form(Shapeshift); [form:5] Cat Form(Shapeshift); [form:6] ;
+
+
+-- CHALLENDING ROAR & RAVAGE
+#showtooltip
+/cast [form:0] Hurricane; [form:1] Challenging Roar; [form:2] Hurricane; [form:3] Ravage;  [form:4] Hurricane; [form:5] Hurricane;  
+
+
+-- DASH
+#showtooltip
+/cast [form:0] Cat Form(Shapeshift); [form:1] Cat Form(Shapeshift); [form:2] Cat Form(Shapeshift); [form:3] Dash; [form:4] Cat Form(Shapeshift); [form:5] Cat Form(Shapeshift); 
+
+
+-- DEMORALIZING ROAR & TIGER'S FURY
+#showtooltip
+/cast [form:0] Force of Nature; [form:1] Demoralizing Roar; [form:2] Force of Nature; [form:3] Tiger's Fury; [form:4] Force of Nature; [form:5] Force of Nature;
+
+
+-- ENRAGE & MAIM
+#showtooltip
+/cast [form:0] Insect Swarm; [form:1] Enrage; [form:2] Insect Swarm; [form:3] Maim; [form:4] Insect Swarm; [form:5] Insect Swarm;
+
+  
+-- FAERIE FIRE
+#showtooltip
+/cast [form:0] Faerie Fire; [form:1] Faerie Fire (Feral); [form:2] Faerie Fire; [form:3] Faerie Fire (Feral); [form:4] Faerie Fire; [form:5] Faerie Fire;
+
+
+-- FRENZIED REGENERATION
+#showtooltip
+/cast [form:0] Dire Bear Form(Shapeshift); [form:1] Frenzied Regeneration; [form:2] Dire Bear Form(Shapeshift);[form:3] Dire Bear Form(Shapeshift);  [form:4] Dire Bear Form(Shapeshift);  [form:5] Dire Bear Form(Shapeshift);
+
+
+-- GROWL & RIP
+#showtooltip
+/cast [form:0] ; [form:2] ; [form:4] ; [form:1] Growl; [form:3] Rip; [form:5] ;
+
+
+-- PROWL
+#showtooltip Prowl
+/cast !Cat Form
+/cast Prowl
+
+
+-- RAKE & LACERATE
+#showtooltip
+/cast [form:0] ; [form:1] Lacerate; [form:2] ; [form:3] Rake; [form:4] ; [form:5] ;  
+
+
+-- TRAVEL FORMS
+#showtooltip
+/cast [swimming] Aquatic Form;[outdoors] Travel Form; Cat Form
